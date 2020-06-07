@@ -13,7 +13,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  margin-bottom: 1%;
+  margin-bottom: 4%;
 }
 #hr {
   padding: 0;
@@ -27,6 +27,7 @@
 
 .categorie {
   border: 1px solid grey;
+  border-bottom: none;
   border-left: none;
   border-right: none;
   height: 6vh;

@@ -1,4 +1,4 @@
-#categories-container{
+/* #categories-container{
     height: 24vh;
     display: flex;
     justify-content: space-evenly;
@@ -10,6 +10,7 @@
     width: 30vw;
     height: 10vh;
     border: 1px solid grey;
+    border-radius: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,3 +21,4 @@
 .categorie h3{
     font-size: 1.2rem;
 }
+ */

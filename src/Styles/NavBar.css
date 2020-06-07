@@ -3,14 +3,43 @@
   padding-left: 30px;
   margin: 0;
   padding-bottom: 0;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 #navContainer {
   height: 6vh;
-  padding: 0;
-  margin: 0;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 #hr {
   padding: 0;
   margin: 0;
+}
+
+#categories-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.categorie {
+  border: 1px solid grey;
+  border-left: none;
+  border-right: none;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+  color: black;
+}
+.categorie:hover {
+  background-color: rgb(196, 196, 196);
+  text-decoration: none;
+  color: black;
+}
+.icon{
+    font-size: 1.5rem;
 }

@@ -1,38 +1,31 @@
 import React from "react";
-import Bedroom from "../Images/Contemporary-Modern-Metal-Bed.jpg";
-import LivingRoom from "../Images/livingroomtable.jpg";
-import Decor from "../Images/architectBookcase_2.jpg";
-import "../Styles/Categories.css"
+import "../Styles/Categories.css";
+import { Link } from "react-router-dom";
 
 const Categories = () => {
   return (
-    <div
-    id="categories-container"
-    >
-      <div id="bedroom" className="categorie">
-      <h3>Bedroom</h3>
-        {/* <img
-          src={Bedroom}
-          alt="Bedroom"
-          style={{ objectFit: "cover", height: "100%", width: "100%" }}
-        /> */}
-      </div>
-      <div id="livingroom" className="categorie">
-      <h3>Living Room</h3>
-        {/* <img
-          src={LivingRoom}
-          alt="Living Room"
-          style={{ objectFit: "cover", height: "100%", width: "100%" }}
-        /> */}
-      </div>
-      <div id="decor" className="categorie">
-      <h3>Decor</h3>
-        {/* <img
-          src={Decor}
-          alt="Book shelf"
-          style={{ objectFit: "cover", height: "100%", width: "100%" }}
-        /> */}
-      </div>
+    <div id="categories-container">
+      <Link
+        id="bedroom"
+        className="categorie animate__animated animate__fadeIn"
+        to="/bedroom"
+      >
+        Bedroom
+      </Link>
+      <Link
+        id="livingroom"
+        className="categorie animate__animated animate__fadeIn"
+        to="/livingroom"
+      >
+        Living Room
+      </Link>
+      <Link
+        id="decor"
+        className="categorie animate__animated animate__fadeIn"
+        to="/decor"
+      >
+        Decor
+      </Link>
     </div>
   );
 };

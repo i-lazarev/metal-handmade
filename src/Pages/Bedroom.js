@@ -9,8 +9,9 @@ import "../Styles/LivingRoom.css"
 const Bedroom = () => {
   return (
     <div>
-      <h1>Bedroom</h1>
+      <h2>Bedroom</h2>
       <div id="images-living" style={{display:"flex", flexDirection:"row",flexWrap:"wrap"}}>
+      <div><img src={Image1} alt=""/></div>
       <div><img src={Image2} alt=""/></div>
      <div><img src={Image3} alt=""/></div>
      <div><img src={Image4} alt=""/></div>

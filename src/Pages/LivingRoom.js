@@ -14,7 +14,7 @@ const LivingRoom = () => {
 
   return (
     <div>
-      <h1>Living Room</h1>
+      <h2>Living Room</h2>
       <div id="images-living" style={{display:"flex", flexDirection:"row",flexWrap:"wrap"}}>
      {/* <img src={Image1} alt=""/> */}
      <div><img src={Image2} alt=""/></div>

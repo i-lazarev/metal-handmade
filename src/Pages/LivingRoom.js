@@ -17,13 +17,13 @@ const LivingRoom = () => {
       <h1>Living Room</h1>
       <div id="images-living" style={{display:"flex", flexDirection:"row",flexWrap:"wrap"}}>
      {/* <img src={Image1} alt=""/> */}
-     <img src={Image2} alt=""/>
-     <img src={Image3} alt=""/>
-     <img src={Image4} alt=""/>
-     <img src={Image5} alt=""/>
-     <img src={Image6} alt=""/>
-     <img src={Image7} alt=""/>
-     <img src={Image8} alt=""/>
+     <div><img src={Image2} alt=""/></div>
+     <div><img src={Image3} alt=""/></div>
+     <div><img src={Image4} alt=""/></div>
+     <div><img src={Image5} alt=""/></div>
+     <div><img src={Image6} alt=""/></div>
+     <div><img src={Image7} alt=""/></div>
+     <div><img src={Image8} alt=""/></div>
       </div>
     </div>
   );

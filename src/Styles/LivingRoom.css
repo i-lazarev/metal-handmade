@@ -1,5 +1,10 @@
-#images-living img{
-   height: 20%;
+#images-living div{
+   height: 20vh;
     width: 30vw;
-    padding: 5px;
+    margin: 5px;
 }
+
+#images-living div img{
+   width: 30vw;
+    
+ }

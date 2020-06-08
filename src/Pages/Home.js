@@ -1,5 +1,7 @@
 import React from "react";
 import "../Styles/Home.css";
+import Table1 from "../Images/table1.jpg";
+import Decor1 from "../Images/decor1.jpg";
 
 const Home = () => {
   return (
@@ -13,6 +15,14 @@ const Home = () => {
           We will help you to think differently
           <br /> about your space
         </p>
+      </div>
+      <div id="imageContainer">
+        <div className="imgDiv div1 animate__animated animate__fadeIn">
+          <img className="image image1" src={Table1} alt="" />
+        </div>
+        <div className="imgDiv2 div2 animate__animated animate__fadeIn">
+          <img className="image image2" src={Decor1} alt="" />
+        </div>
       </div>
     </div>
   );

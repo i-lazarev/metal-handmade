@@ -10,7 +10,7 @@ const NavBar = () => {
       <div id="categories-container">
         <Link
           id="home"
-          className="categorie animate__animated animate__fadeIn"
+          className="categorie"
           to="/"
         >
          <FontAwesomeIcon className="icon" icon={faHome}/>
@@ -18,7 +18,7 @@ const NavBar = () => {
         </Link>
         <Link
           id="bedroom"
-          className="categorie animate__animated animate__fadeIn"
+          className="categorie"
           to="/bedroom"
         >
         <FontAwesomeIcon className="icon" icon={faBed}/>
@@ -26,14 +26,14 @@ const NavBar = () => {
         </Link>
         <Link
           id="livingroom"
-          className="categorie animate__animated animate__fadeIn"
+          className="categorie"
           to="/livingroom"
         >
         <FontAwesomeIcon className="icon" icon={faCouch}/>
         </Link>
         <Link
           id="decor"
-          className="categorie animate__animated animate__fadeIn"
+          className="categorie"
           to="/decor"
         >
         <FontAwesomeIcon className="icon" icon={faChair}/>

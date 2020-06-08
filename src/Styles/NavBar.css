@@ -1,3 +1,11 @@
+#navContainer {
+  height: 6vh;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 4%;
+}
 #title {
   font-family: "Comfortaa", cursive;
   padding-left: 30px;
@@ -6,15 +14,7 @@
   font-size: 1.8rem;
   font-weight: bold;
 }
-#navContainer {
-  height: 6vh;
 
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  margin-bottom: 4%;
-}
 #hr {
   padding: 0;
   margin: 0;
@@ -38,10 +38,10 @@
   color: black;
 }
 .categorie:hover {
-  background-color: rgb(196, 196, 196);
+  
   text-decoration: none;
-  color: black;
+  color: gray;
 }
-.icon{
-    font-size: 1.5rem;
+.icon {
+  font-size: 1.5rem;
 }

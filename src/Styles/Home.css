@@ -1,23 +1,27 @@
 #home-container {
   display: flex;
-  height: 75vh;
+  height: 100vh;
   flex-direction: column;
 }
 #textContainer {
   display: flex;
   flex-direction: column;
-
   height: 32vh;
  
 }
 #imageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 38vh;
+  margin-bottom: 6vh;
+
 }
 #texth1 {
   font-family: "Playfair Display", serif;
   font-size: 2.2rem;
   margin-left: 5% ;
   color: rgb(46, 45, 45);
- 
 }
 #textp {
   font-family: "Playfair Display", serif;
@@ -26,12 +30,12 @@
   padding-top: 10%;
 }
 .image{
-  width: 40%;
+  width: 36%;
 
 }
 
 .imgDiv{
-  height: 50%;
+  height: 36vh;
   width: 100%;
 
 }
